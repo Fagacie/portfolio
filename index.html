@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+  <header class="hero-section">
+    <div class="hero-text">
+      <h1>Welcome to My Creative Journey</h1>
+      <p>Showcasing creativity, design, and innovation.</p>
+    </div>
+  </header>
+
+
+  <nav class="side-nav">
+    <a href="#about">About Me</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+
+  <main>
+    <section id="about" class="profile-card">
+      <div class="profile-card-content">
+        <div class="profile-text">
+          
+          <h3 class="profile-name">Abbas Usman</h3>
+          <p class="profile-title">Software Engineering Student</p>
+          <p class="profile-education">University Malaysia Terengganu</p>
+          <div class="social-links">
+            <a href="#" class="social-icon"><i class="fa fa-globe"></i></a>
+            <a href="https://x.com/fagacie_/" class="social-icon"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/fagacie/" class="social-icon"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/fagacie_/" class="social-icon"><i class="fa fa-facebook"></i></a>
+          </div>
+          <button class="contact-btn">Contact</button>
+        </div>
+        <div class="profile-image-container">
+          <img src="usyyy.jpg" alt="Your Profile Picture" class="profile-image">
+        </div>
+      </div>
+    </section>
+
+ 
+    <section class="slideshow">
+      <div class="slides">
+        <img src="pimage1.jpg" alt="Slide 1">
+        <img src="pimage2.jpg" alt="Slide 2">
+        <img src="pimage3.jpg" alt="Slide 3">
+      </div>
+      <button class="prev-slide">&#10094;</button>
+      <button class="next-slide">&#10095;</button>
+    </section>
+
+    <section id="skills" class="skills-section">
+      <h2>My Skills</h2>
+      <div class="progress-bar">
+        <label for="html">HTML</label>
+        <div class="progress">
+          <div class="progress-bar-fill" style="width: 90%;"></div>
+        </div>
+      </div>
+      <div class="progress-bar">
+        <label for="css">CSS</label>
+        <div class="progress">
+          <div class="progress-bar-fill" style="width: 85%;"></div>
+        </div>
+      </div>
+      <div class="progress-bar">
+        <label for="js">JavaScript</label>
+        <div class="progress">
+          <div class="progress-bar-fill" style="width: 75%;"></div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="contact" class="contact-section">
+      <div class="contact-text">
+        <h2>Contact Me</h2>
+        <p>I'm Usman Abbas, a student at University Malaysia Terengganu.</p>
+        <div class="contact-links">
+          <a href="mailto:abbasusman561@gmail.com.com">Email</a>
+         
+        </div>
+      </div>
+      <div class="contact-form-container">
+        <form action="#" method="post" class="contact-form">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Submit</button>
+        </form>
+      </div>
+    </section>
+
+
+    <section class="form-background">
+      <div class="form-container">
+        <h2 class="form-title">Login to Your Account</h2>
+        <form action="#" method="post" class="login-form">
+          <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="form-btn">Log In</button>
+          </div>
+          <p class="form-footer">Don't have an account? <a href="#">Sign Up</a></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <script src="portfolio.js"></script>
+</body>
+</html>
